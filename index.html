@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anamay's Portfolio - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #06283d;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #cb360d;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #272626;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        #showcase {
+            min-height: 400px;
+            background: url('https://placeholder.svg?height=400&width=1200') no-repeat center center/cover;
+            text-align: left;
+            color: #0e0101;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px 40px;
+        }
+        #showcase .content {
+            padding-right: 40px;
+        }
+        #showcase h1 {
+        color: #cb360d; 
+        font-size: 55px;
+        margin-bottom: 10px;
+        margin-top:0;
+        }
+
+        #showcase p {
+            font-size: 20px;
+        }
+        #about {
+            padding: 20px;
+            text-align: center;
+            background-color: #ffffff;
+        }
+        #about h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        #about p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #0a0a0a;
+        }
+        footer {
+            padding: 20px;
+            background-color: #06283d;
+            color: #ffffff;
+            text-align: center;
+        }
+        #showcase img {
+            width: 550px;
+            height: 350px;
+            object-fit: cover;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">My</span> Portfolio</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="content">
+            <h2>Hello! It's me</h2>
+            <h1>Anamay Shukla</h1>
+            <p>I'm an engineering student passionate about technology and innovation. Constantly exploring new ways to solve problems and and create impactful solutions, I thrive on learning emerging technologies and applying them to real-world challenges.
+        </div>
+        <img src="anamay.jpeg" alt="Anamay's Photo">
+    </section>
+
+    <section id="about">                
+        <div class="container">
+            <h2>Brief about me</h2>
+            <p>I am a technology enthusiast driven by a passion for creating impactful solutions. With experience in web development, coding, and problem-solving, I enjoy turning ideas into reality. My journey is fueled by continuous learning and a desire to push the boundaries of what's possible.</p>
+            <p>Explore my work, get to know more about my projects, and feel free to reach out if you're interested in collaborating or just want to connect!</p>
+           
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Anamay's Portfolio</p>
+    </footer>
+</body>
+</html>
